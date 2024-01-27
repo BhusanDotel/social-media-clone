@@ -42,7 +42,7 @@ const server = app.listen(5000, () => {
 
 const io = socket(server, {
   cors: {
-    origin: "http://localhost:5173",
+    origin: "https://social-media-clone-kuqa.onrender.com",
     credentials: true,
   },
 });
